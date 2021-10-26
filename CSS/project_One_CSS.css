@@ -5,17 +5,39 @@ body {
 	margin: 0 auto;
 }
 
-h1 {
 
 
-}
-
-header {
-
+dl.centered { 
+    color: black;  
+    font-family: sans-serif;
+	margin-bottom: 100px;
 	
 }
+dd.centered {
+    text-align: center; 
+    color: black;  
+    font-family: sans-serif;
+	max-width: 40%;
+	margin: 0 auto 25px;
+}
 
-
-h2 {
+dt.centered {
+    width: 150px;
+    padding: 7.5px 7.5px;
+	margin: 0 auto;
+    margin: top 10px;
+    margin: bottom 10px;
+    border-width: .01cm;
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+    border-width: .01cm;
+    border-radius: 1cm;
+    font-size: 25px;
 
 }
+
+dt {
+    text-align: center; 
+    color: black;  
+    font-family: monospace;
