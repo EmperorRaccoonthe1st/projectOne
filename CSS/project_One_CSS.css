@@ -35,3 +35,25 @@ dt {
     color: black;  
     font-family: monospace;
 }
+
+ol {
+	display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+ul {
+	display: table;
+    margin: 0 auto;
+    text-align: left;
+}
+
+li {
+	text-align: left; 
+    color: black;
+	font-family: sans-serif;
+}
+
+li.centered {
+	margin-left: -30px;
+}
