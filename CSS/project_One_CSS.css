@@ -43,6 +43,8 @@ ol {
 }
 
 ul {
+	margin-top: 100px;
+	margin-bottom: 100px;
 	display: table;
     margin: 0 auto;
     text-align: left;
@@ -55,5 +57,5 @@ li {
 }
 
 li.centered {
-	margin-left: -30px;
+	margin-left: 180px;
 }
