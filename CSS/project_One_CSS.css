@@ -27,11 +27,7 @@ dt.centered {
 	margin: 0 auto;
     margin: top 10px;
     margin: bottom 10px;
-    border-width: .01cm;
-    border-style: solid;
-    border-color: black;
-    border-width: .01cm;
-    border-radius: 1cm;
+   
     font-size: 25px;
 
 }
