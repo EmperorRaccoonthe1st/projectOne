@@ -43,10 +43,9 @@ ol {
 }
 
 ul {
-	margin-top: 100px;
-	margin-bottom: 100px;
+	
 	display: table;
-    margin: 0 auto;
+    margin: 50px  auto 50px ;
     text-align: left;
 }
 
