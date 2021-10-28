@@ -45,7 +45,7 @@ ol {
 ul {
 	
 	display: table;
-    margin: 50px  auto 50px ;
+    margin: 50px  auto 100px ;
     text-align: left;
 }
 
@@ -63,5 +63,25 @@ h2 {
 	text-align: center;
 	font-size: 50px;
 	text-decoration: solid;
+}
 
+
+
+details {
+    margin-left: -80px;
+    cursor: pointer;
+    border: solid;
+    border-width: .001cm;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+summary {
+    font-family: sans-serif;
+    padding: 5px;
+}
+
+details p {
+    font-family: sans-serif;
+    text-align: center;
 }
