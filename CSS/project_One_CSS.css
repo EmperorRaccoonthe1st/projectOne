@@ -5,7 +5,9 @@ body {
 	margin: 0 auto;
 }
 
-
+h1 {
+    text-align: center;
+}
 
 dl.centered { 
     color: black;  
@@ -84,4 +86,8 @@ summary {
 details p {
     font-family: sans-serif;
     text-align: center;
+}
+
+svg {
+    margin: 50px  auto 100px 550px;
 }
