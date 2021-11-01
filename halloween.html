@@ -6,14 +6,14 @@
     <script> 
         function flash() {
         var text = document.getElementById('foo');
-        text.style.color = (text.style.color=='red') ? 'green':'red';
+        text.style.color = (text.style.color=='orange') ? 'black':'orange';
         }
         var clr = setInterval(flash, 1000);
     </script>
 
 </head>
 <body>
-    <h1 id="flash" >This is Halloween...this is Halloween</h1>
+    <h1 id="foo" style="color: orange;" >This is Halloween...this is Halloween</h1>
     <svg height="500" width="500" style="background-color: black;">
         <circle cx="110" cy="110" r="50" fill="lightgray" />
         <circle cx="100" cy="120" r="10" fill="darkgray"/>
