@@ -91,3 +91,24 @@ details p {
 svg {
     margin: 50px  auto 100px 550px;
 }
+
+table.centered {
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+tr.centered {
+    text-align: center;
+    border: 1px solid black;
+}
+
+td.centered {
+    text-align: center;
+    border: 1px solid black;
+}
+
+th.centered {
+    text-align: center;
+    border: 1px solid black;
+}
