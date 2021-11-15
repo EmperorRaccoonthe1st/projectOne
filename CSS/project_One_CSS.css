@@ -96,6 +96,8 @@ table.centered {
     margin-bottom: 50px;
     text-align: center;
     font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 tr.centered {
