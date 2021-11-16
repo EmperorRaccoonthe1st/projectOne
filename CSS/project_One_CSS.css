@@ -113,7 +113,8 @@ th.centered {
     border: 1px solid black;
 }
 
-audio.centered {
-    margin:1.25rem auto;
-    padding:1.051%;
-  }
+div.centered{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
