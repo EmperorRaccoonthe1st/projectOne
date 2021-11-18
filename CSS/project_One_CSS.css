@@ -1,12 +1,16 @@
 body {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(223, 219, 219);
 	max-width: 2000px;
 	width: 100%;
 	margin: 0 auto;
 }
-
+header {
+    margin-bottom: -20px;
+    margin-top: -20px;
+}
 h1 {
     text-align: center;
+    font-size: 100px;
 }
 
 dl.centered { 
@@ -62,8 +66,7 @@ li.centered {
 }
 
 h2 {
-	text-align: center;
-	font-size: 50px;
+	font-size: 20px;
 	text-decoration: solid;
 }
 
@@ -113,7 +116,12 @@ th.centered {
     border: 1px solid black;
 }
 
-div.centered{ 
+div.header2{ 
+   display: inline-block;
+    margin-bottom: 50px;
+}
+
+div.centered {
     display: flex;
     justify-content: center;
     align-items: center;
