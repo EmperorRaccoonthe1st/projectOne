@@ -125,4 +125,45 @@ div.centered {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
+}
+
+ul.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width: .01cm;
+    border-radius: 1cm;
+   text-align: center;
+}
+
+li.navBar {
+    padding: 14px 16px;
+    display: inline-block; 
+    overflow: auto;  
+    
+}
+
+li.navBar:hover {
+    background-color: lightgray;
+}
+
+ a.navBar {
+    color:black;
+    text-decoration:none;
+    padding: 8px;
+    display: block;  
+
+}
+
+li.navFiller {
+    padding: 14px 16px;
+    overflow: hidden;
+    text-align: center;
+    display: inline;
+    float: left;
 }
