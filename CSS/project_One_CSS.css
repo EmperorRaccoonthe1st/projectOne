@@ -68,6 +68,7 @@ li.centered {
 h2 {
 	font-size: 20px;
 	text-decoration: solid;
+    text-align: center;
 }
 
 details {
@@ -116,18 +117,6 @@ th.centered {
     border: 1px solid black;
 }
 
-div.header2{ 
-   display: inline-block;
-    margin-bottom: 50px;
-}
-
-div.centered {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
-}
-
 ul.navBar {
     list-style-type: none;
     margin: 0;
@@ -160,10 +149,8 @@ li.navBar:hover {
 
 }
 
-li.navFiller {
-    padding: 14px 16px;
-    overflow: hidden;
-    text-align: center;
-    display: inline;
-    float: left;
-}
+div.center {
+    margin: 0 auto; 
+    width: 400px;
+    display: block
+  }
