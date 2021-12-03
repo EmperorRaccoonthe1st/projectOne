@@ -141,16 +141,15 @@ li.navBar:hover {
     background-color: lightgray;
 }
 
- a.navBar {
+a.navBar {
     color:black;
     text-decoration:none;
     padding: 8px;
-    display: block;  
-
+    display: block; 
 }
 
 div.center {
     margin: 0 auto; 
     width: 400px;
     display: block
-  }
+}
